@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+    <style>
+        .signup-div {
+            width: 700px;
+            background: #FFFDA9;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title {
+            background: #D4FDD6;
+            color: #0433FF;
+        }
+        .field-name {
+            color: #0433FF;
+            vertical-align: text-top;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-div">
+        <form name="signup-form">
+            <fieldset>
+                <div class="title"><h2>ĐĂNG KÝ HỌC VIÊN</h2></div>
+                <table>
+                    <tr>
+                        <td class="field-name">Họ và tên</td>
+                        <td><input type="text" name="yourname" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Ngày sinh</td>
+                        <td><input type="date" name="birthdate" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Giới tính</td>
+                        <td>
+                            <input type="radio" name="gender" value="male" >Nam
+                            <input type="radio" name="gender" value="female">Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Địa chỉ</td>
+                        <td><input type="text" name="address" style="width: 240px;height: 70px"></td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Lớp</td>
+                        <td>
+                            <select name="class">
+                                <option>-Chọn lớp-</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Email</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="field-name">Điện thoại</td>
+                        <td><input type="tel" name="phoneno"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Đăng ký">
+                            <input type="reset" value="Nhập lại">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
